@@ -54,6 +54,9 @@ LOCAL_STATIC_LIBRARIES := \
     libm \
     libc
 
+#libpixelflinger_static for x86 is using encoder under hardware/intel/apache-harmony
+LOCAL_STATIC_LIBRARIES_x86 := libenc
+
 ifeq ($(TARGET_USERIMAGES_USE_EXT4), true)
     LOCAL_CFLAGS += -DUSE_EXT4
     LOCAL_C_INCLUDES += system/extras/ext4_utils
