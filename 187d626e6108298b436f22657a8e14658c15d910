@@ -1,0 +1,7 @@
+Code-Review+2: Doug Zongker <dougz@android.com>
+Verified+1: Doug Zongker <dougz@android.com>
+Submitted-by: Doug Zongker <dougz@android.com>
+Submitted-at: Fri, 06 Jun 2014 15:33:16 +0000
+Reviewed-on: https://android-review.googlesource.com/96855
+Project: platform/bootable/recovery
+Branch: refs/heads/master
