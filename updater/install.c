@@ -275,6 +275,10 @@ Value* FormatFn(const char* name, State* state, int argc, Expr* argv[]) {
         }
         result = location;
 #endif
+#ifdef USE_F2FS
+    } else if (strcmp(fs_type, "f2fs") == 0) {
+        result = location;
+#endif
     } else {
         printf("%s: unsupported fs_type \"%s\" partition_type \"%s\"",
                 name, fs_type, partition_type);
